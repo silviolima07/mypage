@@ -556,30 +556,37 @@
                                     </strong>
                                 </li>
                             </ul> -->
-                            <h4><font color="red">Análise de dados dos censos de 1991, 2000 e 2010 do Brasil</font></h2>
+                            <br>
+                            <h1><font color="red">Análise de dados dos censos de 1991, 2000 e 2010 do Brasil</font></h1>
                             <p align="center">
                               Para efetuar as análises fez-se o download do dataset Altas2013_dadosbrutos do site do Ibge. Utilizou-se o RStudio como ambiente para execução.
                               <br>Foram análisadas as correlações entre alguns atributos na aba com dados do Brasil contendo os valores segundo os censos de 1991, 2000 e 2010.
                               <br>Correlações indicam uma relação entre atributos, esta correlação pode ter valores positivos e negativos.
-                              Valores negativos indicam que os atributos são inversamente proporcionais ou seja à medida que os valores de um atributos aumentam, os valores do outro atributos tendem a cair.
-                              Valores positivos, indicam que os atributos são diretamente proporcionais.<br>
+                              <br>Valores negativos indicam que os atributos são inversamente proporcionais ou seja à medida que os valores de um atributos aumentam, os valores do outro atributos tendem a cair.
+                              <br>Valores positivos, indicam que os atributos são diretamente proporcionais.<br>
                               Foram feitas correlações entre:<br>
                               <p alig= "left">
-                              - Espectativa de Vida ao nascer, valores em anos<br>
+                                <ul>
+                                  <li>Espectativa de Vida ao nascer, valores em anos</li>
+                                  <li>Espectativa de anos de estudo até os 18 anos</li>
+                                  <li>Proporção de pobreza (renda familiar per capita abaixo de R$140 mensais)</li>
+                                  <li>Probabilidade de sobrevivência até os 60 anos</li>
+                                </ul>
+                              <!-- - Espectativa de Vida ao nascer, valores em anos<br>
                               - Espectativa de anos de estudo até os 18 anos<br>
-                              - Proporção de pobreza (renda familiar per capita abaixo de R$140 mensais<br>
-                              - Probabilidade de sobrevivência até os 60 anos<br>
+                              - Proporção de pobreza (renda familiar per capita abaixo de R$140 mensais)<br>
+                              - Probabilidade de sobrevivência até os 60 anos<br> -->
                             </p>
                             </p>
                               <br>
                               <!-- <div  align="center"> -->
                                 <!-- <p>Exemplo de um dashboard apresentando um conjunto de cidades e  uma lista de desastres naturais ocorridos.</p> -->
-                                <img src="img/portfolio/R/RStudio.PNG?image=251" class="img-responsive img-centered" border="1">
-                                <br>
+                                <!-- <img src="img/portfolio/R/RStudio.PNG?image=251" class="img-responsive img-centered" border="1">
+                                <br> -->
                                 <div class="row">
                                   <div class="offset-md-2 col-md-8">
                                     <div class="row" align="center">
-                                      <img src="img/portfolio/R/RStudio.PNG?image=251" class="img-fluid" border="1">
+                                      <img src="img/portfolio/R/RStudio.PNG?image=251"  border="1">
                                       <br>
                                     </div>
                                   </div>
@@ -591,7 +598,8 @@
                                 <br>
                                 <h3><font color="red">Resultado da Execução</font></h3>
                                 </div>
- <!-- <p align="justify"> -->
+<div>
+ <p align="left">
 > ## ESPVIDA - Espectativa de Vida ao nascer, valores em anos<br>
 > ESPVIDA<-dadosBR[3]<br>
 > ## E_ANOSESTUDO - Espectativa de anos de estudo até os 18 anos<br>
@@ -644,7 +652,7 @@
     A correlação entre a Probabilidade de chegar até os 60 anos e Anos de estudo, aponta valor positivo e quase igual a 1, significando que há uma influência diretamente proporcional a probabilidade de chegar aos 60 anos e de acordo com o tempo de estudo.
   </p>
  <br>
-<!--</div>-->
+</div>
                               </div>
                             <button id="btnSubmit" type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
