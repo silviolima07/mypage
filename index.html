@@ -535,7 +535,7 @@
                             <h2>R</h2>
                             <hr class="star-primary">
                             <!-- <img src="img/portfolio/submarine.png" class="img-responsive img-centered" alt=""> -->
-                            <p align="left">
+                            <p align="center">
                               R é uma linguagem e também um ambiente de desenvolvimento integrado para cálculos estatísticos e gráficos.<br>
                               Foi criada originalmente por Ross Ihaka e por Robert Gentleman no departamento de Estatística da universidade de Auckland, Nova Zelândia, e foi desenvolvido em um esforço colaborativo de pessoas em vários locais do mundo[3].<br>
                               O nome R provêm em parte das iniciais dos criadores e também de um jogo figurado com a linguagem S (da Bell Laboratories, antiga AT&T).
@@ -563,10 +563,12 @@
                               Valores negativos indicam que os atributos são inversamente proporcionais ou seja à medida que os valores de um atributos aumentam, os valores do outro atributos tendem a cair.
                               Valores positivos, indicam que os atributos são diretamente proporcionais.<br>
                               Foram feitas correlações entre:<br>
+                              <p alig= "left">
                               - Espectativa de Vida ao nascer, valores em anos<br>
                               - Espectativa de anos de estudo até os 18 anos<br>
                               - Proporção de pobreza (renda familiar per capita abaixo de R$140 mensais<br>
                               - Probabilidade de sobrevivência até os 60 anos<br>
+                            </p>
                             </p>
                               <br>
                               <div  align="center">
@@ -597,6 +599,9 @@
         E_ANOSESTUDO<br>
         ESPVIDA<br>
   <font color="red">0.9998801</font><br>
+  <p color="blue">
+    A correlação entre Espectativa de vida e Anos de estudo, aponta valor positivo e quase igual a 1, significando que há uma influência positiva no tempo de vida de acordo com o tempo de estudo.
+  </p>
   <br>
 > ## PMPOB - Proporção de pobreza (renda familiar per capita abaixo de R$140 mensais)<br>
 > PMPOB<-dadosBR[76]<br>
@@ -609,6 +614,9 @@
        PMPOB<br>
        ESPVIDA<br>
   <font color="red">-0.9995688</font><br>
+  <p color="blue">
+    A correlação entre Espectativa de vida e Proporção de pobreza, aponta valor negativo e quase igual a -1, significando que há uma influência inversamente proporcional no tempo de vida de acordo com proporção de pobreza.
+  </p>
   <br>
 > ## SOBRE60 - Probabilidade de sobrevivência até os 60 anos<br>
 > SOBRE60<-dadosBR[9]<br>
@@ -621,6 +629,9 @@
         SOBRE60<br>
         E_ANOSESTUDO<br>
   <font color="red">0.9961756</font><br>
+  <p color="blue">
+    A correlação entre a Probabilidade de chegar até os 60 anos e Anos de estudo, aponta valor positivo e quase igual a 1, significando que há uma influência diretamente proporcional a probabilidade de chegar aos 60 anos e de acordo com o tempo de estudo.
+  </p>
  <br>
 </div>
                               </div>
