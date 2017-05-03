@@ -555,8 +555,8 @@
                                     </strong>
                                 </li>
                             </ul> -->
-                            <h2><font color="red">Análise de dados dos censos de 1991, 2000 e 2010 do Brasil</font></h2>
-                            <p align="justify">
+                            <h4><font color="red">Análise de dados dos censos de 1991, 2000 e 2010 do Brasil</font></h2>
+                            <p align="center">
                               Para efetuar as análises fez-se o download do dataset Altas2013_dadosbrutos do site do Ibge. Utilizou-se o RStudio como ambiente para execução.
                               Foram análisadas as correlações entre alguns atributos na aba com dados do Brasil contendo os valores segundo os censos de 1991, 2000 e 2010.
                               Correlações indicam uma relação entre atributos, esta correlação pode ter valores positivos e negativos.
@@ -571,11 +571,58 @@
                               <br>
                               <div  align="center">
                                 <!-- <p>Exemplo de um dashboard apresentando um conjunto de cidades e  uma lista de desastres naturais ocorridos.</p> -->
-                                <img src="img/portfolio/R/RStudio.PNG?image=251" class="img-fluid" border="1">
+                                <img src="img/portfolio/R/RStudio.PNG?image=251" class="img-responsive img-centered" border="1">
                                 <br>
                                 <!-- <br>
                                 <img src="img/portfolio/Tableau/Precipitações-em-Taubaté.PNG?image=251" class="img-fluid" border="2">
                                 <br> -->
+                                <div align="center">
+                                <h3><font color="red">Resultado da Execução</font></h3>
+ <p align="justify">
+> ## ESPVIDA - Espectativa de Vida ao nascer, valores em anos<br>
+> ESPVIDA<-dadosBR[3]<br>
+> ## E_ANOSESTUDO - Espectativa de anos de estudo até os 18 anos<br>
+> E_ANOSESTUDO<-dadosBR[11]<br>
+> head(ESPVIDA)<br>
+  ESPVIDA<br>
+1   64.73<br>
+2   68.61<br>
+3   73.94<br>
+> head(E_ANOSEstudo)<br>
+  E_ANOSESTUDO<br>
+1         8.16<br>
+2         8.76<br>
+3         9.54<br>
+> cor(ESPVIDA,E_AN0SEstudo)<br>
+        E_ANOSESTUDO<br>
+        ESPVIDA<br>
+  <font color="red">0.9998801</font><br>
+  <br>
+> ## PMPOB - Proporção de pobreza (renda familiar per capita abaixo de R$140 mensais)<br>
+> PMPOB<-dadosBR[76]<br>
+> head(PMPOB)<br>
+  PMPOB<br>
+1 38.16<br>
+2 27.90<br>
+3 15.20<br>
+> cor(ESPVIDA,PMPOB)<br>
+       PMPOB<br>
+       ESPVIDA<br>
+  <font color="red">-0.9995688</font><br>
+  <br>
+> ## SOBRE60 - Probabilidade de sobrevivência até os 60 anos<br>
+> SOBRE60<-dadosBR[9]<br>
+> head(SOBRE60)<br>
+  SOBRE60<br>
+1   70.93<br>
+2   77.63<br>
+3   84.05<br>
+> cor(E_ANOSESTUDO,SOBRE60)<br>
+        SOBRE60<br>
+        E_ANOSESTUDO<br>
+  <font color="red">0.9961756</font><br>
+ <br>
+</div>
                               </div>
                             <button id="btnSubmit" type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
