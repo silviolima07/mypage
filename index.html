@@ -470,7 +470,36 @@
                                 Um website falso apresenta algumas caracteristicas que podem ser usadas para classificar como falso ou não um site.<br>
                                 Por exemplo:Tempo de registro do domínio, uso de prefixos e sufixos, abertura de janelas de Popup e etc...<br>
                                 Foram utilizados 30 atributos que geralmente identificam um website falso.<br>
-                                Foi utilizado o algoritmo RandomForest, este apresentou uma taxa de acerto de 98,97.
+                                Foi utilizado o algoritmo RandomForest, este apresentou uma taxa de acerto de 98,97. Abaixo alista de atributos usados:<br>
+                                Using the IP Address
+                                URL Lenght
+                                Using URL Shortening Services “TinyURL”
+                                URL’s having “@” Symbol
+                                Redirecting using “//”
+                                Prefix or Suffix Separated by (-) to the Domain
+                                Sub Domain and Multi Sub Domains
+                                HTTPS (Hyper Text Transfer Protocol with Secure Sockets Layer)
+                                Domain Registration Length
+                                Favicon
+                                Using Non-Standard Port
+                                The Existence of “HTTPS” Token in the Domain Part of the URL
+                                Request URL
+                                URL of Anchor
+                                Links in <Meta>, <Script> and <Link> tags
+                                Server Form Handler (SFH)
+                                Submitting Information to Email
+                                Website Forwarding
+                                Status Bar Customization
+                                Disabling Right Click
+                                Using Pop-up Window
+                                IFrame Redirection
+                                Age of Domain
+                                Record
+                                Website Traffic
+                                PageRank
+                                Google Index
+                                Number of Links Pointing to Page
+                                Statistical-Reports Based Feature
                               </p>
                               <div class="row">
                                 <div >
@@ -490,14 +519,46 @@
                                   O algoritmo RandomForest apresentou um acerto de 98,9688% de classificações corretas.<br>
                                   Segundo a matriz de confusão:<br>
                                   Corretamente<br>
-                                  classe -1 =  4830   classe  1 = 6111 <br>
+                                  classe -1 =  4830<bsp><bsp>classe  1 = 6111 <br>
                                   Incorretamente<br>
-                                  classe -1 = 68      classe  1 = 46 <br>
+                                  classe -1 = 68<bsp><bsp>classe  1 = 46 <br>
                                   <br>
                                   Este algoritmo tem sido muito utilizado em análises envolvendo big data, pois tem proporcionado melhores resultados em relação a outros algoritmos. <br>
                                   Em estudos e comparações (monografias) feitas com o J48 e o Naive Bayes, o RandomForest se mostrou mais apto para essas condições de datasets (número de instâncias e atributos).
                                 </p>
                                 <br>
+
+                                <h2><font color="red">Agrupamento - Algoritmo SimpleKMeans</font></h2>
+                                <p align="justify">
+                                  O dataset com 30 atributos que caracterizam um site falso, foram analisados visando criar grupos baseados nos atributos encontrados.<br>
+                                  Foi definido que seriam gerados 5 grupos.<br>
+                                  O SimpleKMeans apresentou 5 grupos bem distribuídos, a partir da indicação da quantidade (k) de clusters desejada, dividiu a base de dados de forma que a similaridade dos elementos de cada cluster seja alta e  entre os clusters seja baixa
+                                  .<br>
+                                </p>
+                                <div class="row">
+                                  <div class="offset-md-2 col-md-8">
+                                    <div class="row" align="center">
+                                      <img src="../Cluster - SimpleKMeans -2.PNG?image=251" class="img-fluid">
+                                      <br>
+                                      <br>
+                                      <img src="../Cluster - SimpleKMeans.PNG?image=251" class="img-fluid">
+                                    </div>
+                                  </div>
+                                  <br>
+                                  <h3><font color="red">Conclusão</font></h3>
+                                  <p align="justify">
+                                    Os grupos foram definidos a partir dos valores assumidos por cada atributo que identifica um site falso, um site suspeito ou um site legitimo.<br>
+                                    Os valores possíveis eram 0,1 e -1, sendo 0 considerado suspeito, -1 como falso e 1 como sendo legitimo.<br>
+                                    Nos grupos gerados, o valor -1 no grupo 2, concentrou maior número de instâncias.<br>
+                                    Os atributos identificados como característica de um site falso são:<BR>
+                                      - URL_Length<br>
+                                      - Prefix_Suffix<br>
+                                      - Domain_registration_length<br>
+                                      - Server Form Handler (SFH)<br>
+                                      - Page_Rank<br>
+                                      <br>
+                                      A maior concentração de instâncias no grupo 2, pode indicar ou apontar que sejam atributos chaves na determinação se um site é falso ou não.<br>
+                                    </p>
 
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
