@@ -402,13 +402,13 @@
                               <br>
                               <h3>Características</h3>
                                 <p align="left">
-                                Orientado por assunto<br>
-                                Integrado<br>
-                                Histórico<br>
-                                Localização<br>
-                                Não volátil<br>
-                                Credibilidade dos dados<br>
-                                Granularidade</p>
+                                Orientado por assunto: A orientação por assunto é uma característica marcante de um DW, pois toda modelagem será voltada em torno dos principais assuntos da empresa<br><br>
+                                Integrado: A integração mostra-se em muitas diferentes maneiras: na convenção consistente de nomes, na forma consistente das variáveis, na estrutura consistente de códigos, nos atributos físicos consistente dos dados, e assim por diante.<br><br>
+                                Histórico: Num DW é normal mantermos um horizonte de tempo bem superior ao dos sistemas transacionais, enquanto no OLTP mantemos um histórico curto dos dados, no DW guardamos esses dados num período maior.<br><br>
+                                Localização: Os dados podem estar fisicamente armazenados num único local centralizando o banco de dados em um DW integrado, procurando maximizar o poder de processamento e agilizando a busca dos dados ou distribuídos, os Data Marts, armazenados por áreas de interesse. Por exemplo, os dados da gerência financeira num servidor, dados de marketing noutro e dados da contabilidade num terceiro lugar.<br><br>
+                                Não volátil: No DW existem somente duas operações, a carga inicial e as consultas dos front-ends aos dados. Isso pode ser afirmado porque a maneira como os dados são carregados e tratados é completamente diferente dos sistemas transacionais. Enquanto nesses sistemas temos vários controles e updates de registros, no DW temos somente inserts e selects de dados. Por exemplo, num sistema de contabilidade podemos fazer alterações nos registros. Já no DW, o que acontece é somente ler os dados na origem e gravá-los no destino, ou seja, no banco modelado multidimensional.<br><br>
+                                Credibilidade dos dados: Dados não dignos de confiança podem resultar em relatório inúteis, que não têm importância alguma, assim como uma lista de pacientes do sexo masculino e grávidos, por exemplo.<br><br>
+                                Granularidade: Granularidade nada mais é do que o nível de detalhe ou de resumo dos dados existentes num DW. Quanto maior for o nível de detalhes, menor será o nível de granularidade. O nível de granularidade afeta diretamente o volume de dados armazenados no DW, e ao mesmo tempo o tipo de consulta que pode ser respondida.</p>
 
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
