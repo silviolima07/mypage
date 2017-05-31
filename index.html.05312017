@@ -91,20 +91,9 @@
                     <hr class="star-primary">
                 </div>
             </div>
-            <div class="row">
-               <div class="col-sm-4 portfolio-item">
-                   <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                       <div class="caption">
-                           <div class="caption-content">
-                               <i class="fa fa-search-plus fa-3x"></i>
-                           </div>
-                       </div>
-                       <img src="img/portfolio/Interessante/cerebro.jpg" class="img-responsive" alt="logo Interessante">
-                   </a>
-               </div>
              <div class="row">
                 <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
@@ -114,7 +103,7 @@
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
@@ -124,7 +113,7 @@
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
@@ -134,7 +123,7 @@
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
@@ -144,7 +133,7 @@
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
@@ -154,7 +143,7 @@
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
@@ -317,65 +306,8 @@
     </div>
 
     <!-- Portfolio Modals -->
+
     <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <!-- <div class="col-lg-8 col-lg-offset-2"> -->
-                        <div class="modal-body">
-                           <hr class="star-primary">
-                            <h2>Interessante</h2>
-                            <hr class="star-primary">
-                            <!-- <img src="img/portfolio/cake.png" class="img-responsive img-centered" alt=""> -->
-                            <br>
-                            <h3><font color="red">Lets talk about Regression</font></h3>
-                            <br>
-                            <p>I found it when I was studying Data Science at <a href="https://cognitiveclass.ai/">Cognitive Class</a>
-                            <br>
-                            <!-- <p>QlikView é uma plataforma de Business Discovery que permite analisar rapidamente os dados de todas as fontes de sua organização, de forma que os gráficos apresentem com precisão as suas necessidades e processos. <br>Oferece uma ampla gama de funções para analisar seus dados da forma que desejar vê-los, fornecendo uma visão sem precedentes sobre os acontecimentos reais e informando o desempenho de sua organização.<br>
-                            </p>
-                              <h3>Características</h3>
-                              <p>Um mecanismo que mantém automaticamente a associação entre os dados<br>
-                              Pioneiro no uso de BI em memória<br>
-                              Cálculo de agregações durante o uso - Velocidade sem comparação<br>
-                              Compressão de dados à 10% de seu tamanho original<br>
-                              <br>
-                              <p> Exemplo usando dados de Desastres Naturais ocorridos no Estado de São Paulo de 1996 a 2015</p>
-                              <br>
-                              <p>Modelagem Multidimensional</p> -->
-
-                              <img src="img/portfolio/Interessante/Regression/Texto0.PNG?image=251" border="1">
-
-                              <img src="img/portfolio/Interessante/Regression/Texto1.PNG?image=251" border="1">
-
-                              <img src="img/portfolio/Interessante/Regression/Texto2.PNG?image=251" border="1">
-
-                              <img src="img/portfolio/Interessante/Regression/Texto3.PNG?image=251" border="1">
-
-                              <img src="img/portfolio/Interessante/Regression/Texto4.PNG?image=251" border="1">
-
-                              <img src="img/portfolio/Interessante/Regression/Texto5.PNG?image=251" border="1">
-                              <div align="center">
-                              <br>
-                              <p>Book</p>
-                              <img src="img/portfolio/Interessante/Regression/book.PNG?image=251" border="1">
-                              </div>
-                              <br>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    <!-- </div> -->
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -496,7 +428,7 @@
     </div> -->
 
 
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -540,7 +472,7 @@
     </div>
 
 
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -575,7 +507,7 @@
                         </div>
                 </div>
             </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -586,7 +518,7 @@
             <div class="container">
                 <div class="row">
                     <!--<div class="col-lg-8 col-lg-offset-2">-->
-                            <!--<h2>Project Title</h2>-->
+                            
                             <hr class="star-primary">
 							              <h2>Power BI</h2>
                             <hr class="star-primary">
@@ -605,11 +537,12 @@
                         </div>
                     </div>
                 <!--</div>-->
+            <!--</div>-->
         </div>
     </div>
 
     <!---WEKA -->
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -709,7 +642,7 @@
     </div>
 </div>
 
-    <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
