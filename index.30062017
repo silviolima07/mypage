@@ -113,19 +113,8 @@
                         <img src="img/portfolio/QlikView/QlikView-logo.png" class="img-responsive" alt="logo QlikView">
                     </a>
                 </div>
-                <div class="row">
-                   <div class="col-sm-4 portfolio-item">
-                       <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                           <div class="caption">
-                               <div class="caption-content">
-                                   <i class="fa fa-search-plus fa-3x"></i>
-                               </div>
-                           </div>
-                           <img src="img/portfolio/QlikSense/QlikSense-logo.png" class="img-responsive" alt="logo QlikSense">
-                       </a>
-                   </div>
                 <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
@@ -135,7 +124,7 @@
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
@@ -145,7 +134,7 @@
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
@@ -155,7 +144,7 @@
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
@@ -165,7 +154,7 @@
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">
+                    <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
@@ -433,53 +422,6 @@
         </div>
     </div>
 
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <!-- <div class="col-lg-8 col-lg-offset-2"> -->
-                        <div class="modal-body">
-                           <hr class="star-primary">
-                            <h2>QlikSense</h2>
-                            <hr class="star-primary">
-                            <!-- <img src="img/portfolio/cake.png" class="img-responsive img-centered" alt=""> -->
-                            <p>QlikSense é uma plataforma para análise de dados e compartilhamento de insights.
-                              <b>
-                                Permite criar dashboards de forma rápida.<br>
-                            </p>
-                            <br>
-                            <h3>Estudo realizado</h3>
-                            <br>
-                              <p> Usando dados sobre Desastres Naturais ocorridos na região do Vale do Paraíba entre 1996 e 2015.</p>
-                              <br>
-                              <p>Associação entre as tabelas utilizadas na análise. Efetuada a partir dos nomes iguais dos campos ou atributos.</p>
-                              <br>
-                              <img src="img/portfolio/QlikSense/Associação2.PNG?image=251" border="1">
-                              <br>
-                              <div align="center">
-                              <p>Paíneis</p>
-                              <br>
-                              <img src="img/portfolio/QlikSense/Tela1-90.PNG?image=251" border="2">
-                              </div>
-                              <br>
-                              <img src="img/portfolio/QlikSense/Tela2-80.PNG?image=251" border="2">
-                              <br><br>
-                              <p>KPI - Key Performance Indicator</p>
-                              <img src="img/portfolio/QlikSense/Tela3.PNG?image=251" border="1">
-                              <br>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    <!-- </div> -->
-                </div>
-            </div>
-        </div>
-    </div>
     <!-- <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal"><div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
@@ -554,7 +496,7 @@
     </div> -->
 
 
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -598,7 +540,7 @@
     </div>
 
 
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -633,7 +575,7 @@
                         </div>
                 </div>
             </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -667,7 +609,7 @@
     </div>
 
     <!---WEKA -->
-    <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -767,7 +709,7 @@
     </div>
 </div>
 
-    <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
