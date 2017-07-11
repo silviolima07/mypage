@@ -449,26 +449,40 @@
                             <h2>QlikSense</h2>
                             <hr class="star-primary">
                             <!-- <img src="img/portfolio/cake.png" class="img-responsive img-centered" alt=""> -->
-                            <p>QlikSense é uma plataforma para análise de dados e compartilhamento de insights. Permite criar dashboards de forma rápida.<br>
+                            <p>QlikSense é uma plataforma para análise de dados e compartilhamento de insights.</p>
+
+                            <p>Permite criar dashboards de forma rápida.
                             </p>
                             <br>
-                            <h3>Exemplo</h3>
+                            <h3>Estudo realizado</h3>
                             <br>
                               <p> Usando dados sobre Desastres Naturais ocorridos na região do Vale do Paraíba entre 1996 e 2015.</p>
                               <br>
-                              <p>Associação entre as tabelas utilizadas na análise. Efetuada a partir dos nomes iguais dos campos ou atributos.</p>
+                              <h4>Associação entre as tabelas</h4>
+                              <p>Efetuada a partir dos nomes iguais dos campos.</p>
                               <br>
                               <img src="img/portfolio/QlikSense/Associação2.PNG?image=251" border="1">
                               <br>
-                              <div align="center">
-                              <p>Paíneis</p>
+                              <p>
+                                <b>Eventos</b> - indica o desastre natural ocorrido e seu id.<br>
+                                <b>Perdas1</b> - apresenta as descrição da perdas materiais e seu id.<br>
+                                <b>Perdas2</b> - contém a descrição das perdas humanas e seu id.<br>
+                                <b>LatLong</b> - indica a localização geográfica da cidade e seu id.<br>
+                                <b>Desastres</b> - Tabela Fato gerada com os ids das tabelas anteriores.
+                                <br>
+                              </p>
                               <br>
-                              <img src="img/portfolio/QlikSense/Tela1-90.PNG?image=251" border="1">
+
+                              <div align="center">
+                              <h4>Paíneis</h4>
+                              <br>
+                              <img src="img/portfolio/QlikSense/Tela1-78.PNG?image=251" border="1">
                               </div>
                               <br>
                               <img src="img/portfolio/QlikSense/Tela2-80.PNG?image=251" border="1">
                               <br>
-                              <p>KPI - Key Performance Indicator</p>
+                              <h4>KPI - Key Performance Indicator</h4>
+                              <br>
                               <img src="img/portfolio/QlikSense/Tela3.PNG?image=251" border="1">
                               <br>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
@@ -753,40 +767,6 @@
                                       - Page_Rank<br>
                                       <br>
                                       A maior concentração de instâncias no grupo 2, pode indicar ou apontar que sejam atributos chaves na determinação se um site é falso ou não.<br>
-                                    </p>
-                                    <br>
-                                    <br>
-
-                                <h4><font color="red">Associação - Algoritmo Apriori</font></h4>
-                                <br>
-                                <p align="justify">
-                                  O dataset utilizado possue 4627 instâncias e 217 atributos relacionados as compras efetuadas num supermercado.<br>
-                                  O algoritmo Apriori, busca a probabilidade de um item Antecedente, LHS (Left Hand Side) influênciar na existência de um item Consequente, RHS(Right Hand Side).<br>
-                                  O conceito por trás desta representação é indicar que, numa base de dados, a probabilidade de ocorrência de B é maior entre os registros que contém A. Ou seja, a ocorrência do evento A aumenta a chance do evento B ocorrer.<br>
-                                  </p>
-                                <div class="row">
-                                    <div class="row" align="center">
-                                      <img src="img/portfolio/Weka/SuperMarket04.PNG?image=251" class="img-fluid">
-                                      <br>
-                                      <br>
-                                      <p>Arquivo: supermarket.arff</p>
-                                      <img src="img/portfolio/Weka/SuperMarket01.PNG?image=251" class="img-fluid">
-                                      <br>
-                                      <br>
-                                      <p>Declaração das instâncias de compras efetuadas</p>
-                                      <img src="img/portfolio/Weka/SuperMarket02.PNG?image=251" class="img-fluid">
-                                      <br>
-                                      <br>
-                                      <p>Execução do algoritmo Apriori</p>
-                                      <img src="img/portfolio/Weka/SuperMarket03.PNG?image=251" class="img-fluid">
-                                      <br>
-                                      <br>
-
-                                    </div>
-                                  <br>
-                                  <h4><font color="red">Conclusão</font></h4>
-                                  <p align="justify">
-                                    Analisando a saída do algoritmo pode-se observar as associações encontradas no conjunto de dados utilizado. Quem comprou determinado produto (LHS), também comprou um produto especifico (RHS).<br>De posse dessa informação, a administração do supermercado pode criar promoções para motivar mais compras e posicionar os produtos associados mais próximos entre si.
                                     </p>
                                     <br>
                                   </div>
