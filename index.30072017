@@ -171,17 +171,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/Python/Python-logo.png" class="img-responsive" alt="logo Python">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal9" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/R/R-logo.png" class="img-responsive" alt="logo R">
+                        <img src="img/portfolio/R/R-logo.png" class="img-responsive" alt="logo R.png">
                     </a>
                 </div>
                 <!-- <div class="col-sm-4 portfolio-item">
@@ -808,73 +798,8 @@
         </div>
     </div>
 </div>
-</div>
 
-<div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl">
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                        <hr class="star-primary">
-                        <h2>Python</h2>
-                        <hr class="star-primary">
-                        <br>
-                         <p align="center">Linguagem que ganha cada vez mais adeptos entre desenvolvedores e universidades, visando o inicio do aprendizado de programação.<br>
-                           Possui diversas bibliotecas e frameworks que facilitam o desenvolvimento de aplicações: Bibliotecas matemáticas e gráficas.
-                         </p>
-                         <br>
-                         <br>
-                           <h4><font color="red">Jupyter Notebook</font></h4>
-                           <br>
-                           <p align="center">Conhecido anteriormente como IPython Notebook é agora identificado como Jupyter Notebook. <br>É um ambiente computacional interativo, no qual pode-se executar códigos, gerar gráficos, etc...
-                          </p>
-                         <img src="img/portfolio/Python/jupyter.png?image=251" class="img-fluid">
-
-                         <br>
-                         <div  align="center">
-                           <img src="img/portfolio/Python/Tela1.PNG?image=251" border="1">
-                           <img src="img/portfolio/Python/Tela2.PNG?image=251" border="1">
-                           <img src="img/portfolio/Python/Tela3.PNG?image=251" border="1">
-                           <img src="img/portfolio/Python/Tela4.PNG?image=251" border="1">
-                           <img src="img/portfolio/Python/Tela5.PNG?image=251" border="1">
-                        <!-- </div>
-                         <div align="left">-->
-                           <img src="img/portfolio/Python/Tela6.PNG?image=251" border="1">
-                           <img src="img/portfolio/Python/Tela7.PNG?image=251" border="1">
-                           <img src="img/portfolio/Python/Tela8.PNG?image=251" border="1">
-                           <img src="img/portfolio/Python/Tela9.PNG?image=251" border="1">
-                           <img src="img/portfolio/Python/Tela10.PNG?image=251" border="1">
-                           <img src="img/portfolio/Python/Tela11-1.PNG?image=251" border="1">
-                           <img src="img/portfolio/Python/Tela12.PNG?image=251" border="1">
-                           <img src="img/portfolio/Python/Tela13.PNG?image=251" border="1">
-                          <!-- <img src="img/portfolio/Python/Tela14.PNG?image=251" border="1">-->
-                           <img src="img/portfolio/Python/Tela15.PNG?image=251" border="1">
-                           <img src="img/portfolio/Python/Tela16.PNG?image=251" border="1">
-                           <img src="img/portfolio/Python/Tela17.PNG?image=251" border="1">
-                           <img src="img/portfolio/Python/Tela18.PNG?image=251" border="1">
-                        </div>
-                          <div align="center">
-                           <br>
-                         <p>Clique na imagem abaixo para fazer o download do código e abrir no Jupyter Notebook.</p>
-                         <a href="https://drive.google.com/file/d/0B0DzQyW0s5sceEpGckxRblFsd0E/view?usp=sharing">
-                           <img src="img/portfolio/Python/bitcoin.jpg?image=251" border="1">
-                         </a>
-                       </div>
-<br>
-<br>
-</div>
-<br>
-                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                    </div>
-                </div>
-</div>
-
-    <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
