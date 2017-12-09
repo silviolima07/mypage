@@ -1,0 +1,1020 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Business Intelligence</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="css/freelancer.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" class="index">
+<div id="skipnav"><a href="#maincontent">Skip to main content</a></div>
+
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="#page-top">Business Intelligence</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#portfolio">Tópicos</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#about">Profile</a>
+                    </li>
+                    <li class="page-scroll">
+                        <!--<a href="#contact">Contato</a>-->
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container" id="maincontent" tabindex="-1">
+            <div class="row">
+                <div class="col-lg-12">
+                    <img class="img-responsive" src="img/capa/bi.jpg" alt="BI">
+                    <div class="intro-text">
+                        <h1 class="name">Business Intelligence</h1>
+                        <hr class="star-light">
+                        <span class="skills">Ferramentas de BI, Mineração de Dados e Big Data</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Tópicos</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+               <div class="col-sm-4 portfolio-item">
+                   <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                       <div class="caption">
+                           <div class="caption-content">
+                               <i class="fa fa-search-plus fa-3x"></i>
+                           </div>
+                       </div>
+                       <img src="img/portfolio/Interessante/cerebro.jpg" class="img-responsive" alt="logo Interessante">
+                   </a>
+               </div>
+             <div class="row">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/QlikView/QlikView-logo.png" class="img-responsive" alt="logo QlikView">
+                    </a>
+                </div>
+                <div class="row">
+                   <div class="col-sm-4 portfolio-item">
+                       <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                           <div class="caption">
+                               <div class="caption-content">
+                                   <i class="fa fa-search-plus fa-3x"></i>
+                               </div>
+                           </div>
+                           <img src="img/portfolio/QlikSense/QlikSense-logo.png" class="img-responsive" alt="logo QlikSense">
+                       </a>
+                   </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/DW/dw-logo.png" class="img-responsive" alt="logo DW.png">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/Tableau/Tableau-logo.png" class="img-responsive" alt="logo Tableau">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/Power-BI/PowerBI-logo.png" class="img-responsive" alt="logo Power BI">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/Weka/Weka-logo.png" class="img-responsive" alt="logo Weka">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/Python/Python-logo.png" class="img-responsive" alt="logo Python">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal9" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/R/R-logo.png" class="img-responsive" alt="logo R">
+                    </a>
+                </div>
+                <!-- <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/DW/dw-logo.png" class="img-responsive" alt="logo DW.png">
+                    </a>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="success" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Profile</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-2">
+<p>Me chamo Silvio Cesar De Lima, concluindo pós graduação em Gestão de Projetos de Business Intelligence na universidade de Taubaté. </p>
+<p>Graduado Tecnólogo em Banco de Dados pela FATEC – SJC, concluído em 2013.</p>
+                  </div>
+                <div class="col-lg-4">
+				    <p>Experiência com Unix e Linux. Conhecimentos em Python, Java, R, Weka, Pandas, Tableau, QlikView, Qlik Sense, Power BI, Shell scripts, hadoop e Spark.</p>
+                    <p>Partilhando estudos e conhecimentos.</p>
+					<p>Perfil no Linkedin:</p>
+					<p><a href="https://br.linkedin.com/in/silviocesarlima" style="color:blue"> Silvio Cesar Lima </a></p>
+                </div>
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <!--<a href="#" class="btn btn-lg btn-outline">
+                        <i class="fa fa-download"></i> Download Theme-->
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <!-- <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Contato</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
+                    <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
+                    <!--<form name="sentMessage" id="contactForm" novalidate>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label for="name">Name</label>
+                                <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label for="email">Email Address</label>
+                                <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label for="message">Message</label>
+                                <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <br>
+                        <div id="success"></div>
+                        <div class="row">
+                            <div class="form-group col-xs-12">
+                             <button type="submit" class="btn btn-success btn-lg">Send</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                  <!--  <div class="footer-col col-md-4">
+                        <h3>Location</h3>
+                        <p>3481 Melrose Place
+                            <br>Beverly Hills, CA 90210</p>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Around the Web</h3>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><span class="sr-only">Facebook</span><i class="fa fa-fw fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><span class="sr-only">Google Plus</span><i class="fa fa-fw fa-google-plus"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><span class="sr-only">Twitter</span><i class="fa fa-fw fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><span class="sr-only">Linked In</span><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><span class="sr-only">Dribble</span><i class="fa fa-fw fa-dribbble"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>About Freelancer</h3>
+                        <p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; Your Website 2017
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+    <!-- Portfolio Modals -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <!-- <div class="col-lg-8 col-lg-offset-2"> -->
+                        <div class="modal-body">
+                           <hr class="star-primary">
+                            <h2>Interessante</h2>
+                            <hr class="star-primary">
+                            <!-- <img src="img/portfolio/cake.png" class="img-responsive img-centered" alt=""> -->
+                            <br>
+                            <h3><font color="red">Lets talk about Regression</font></h3>
+                            <br>
+                            <p>I found it when I was studying Data Science at <a href="https://cognitiveclass.ai/">Cognitive Class</a>
+                            <br>
+                            <!-- <p>QlikView é uma plataforma de Business Discovery que permite analisar rapidamente os dados de todas as fontes de sua organização, de forma que os gráficos apresentem com precisão as suas necessidades e processos. <br>Oferece uma ampla gama de funções para analisar seus dados da forma que desejar vê-los, fornecendo uma visão sem precedentes sobre os acontecimentos reais e informando o desempenho de sua organização.<br>
+                            </p>
+                              <h3>Características</h3>
+                              <p>Um mecanismo que mantém automaticamente a associação entre os dados<br>
+                              Pioneiro no uso de BI em memória<br>
+                              Cálculo de agregações durante o uso - Velocidade sem comparação<br>
+                              Compressão de dados à 10% de seu tamanho original<br>
+                              <br>
+                              <p> Exemplo usando dados de Desastres Naturais ocorridos no Estado de São Paulo de 1996 a 2015</p>
+                              <br>
+                              <p>Modelagem Multidimensional</p> -->
+
+                              <img src="img/portfolio/Interessante/Regression/Texto0.PNG?image=251" border="1">
+
+                              <img src="img/portfolio/Interessante/Regression/Texto1.PNG?image=251" border="1">
+
+                              <img src="img/portfolio/Interessante/Regression/Texto2.PNG?image=251" border="1">
+
+                              <img src="img/portfolio/Interessante/Regression/Texto3.PNG?image=251" border="1">
+
+                              <img src="img/portfolio/Interessante/Regression/Texto4.PNG?image=251" border="1">
+
+                              <img src="img/portfolio/Interessante/Regression/Texto5.PNG?image=251" border="1">
+                              <div align="center">
+                              <br>
+                              <p>Book</p>
+                              <img src="img/portfolio/Interessante/Regression/book.PNG?image=251" border="1">
+                              </div>
+                              <br>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    <!-- </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <!-- <div class="col-lg-8 col-lg-offset-2"> -->
+                        <div class="modal-body">
+                           <hr class="star-primary">
+                            <h2>QlikView</h2>
+                            <hr class="star-primary">
+                            <!-- <img src="img/portfolio/cake.png" class="img-responsive img-centered" alt=""> -->
+                            <p>QlikView é uma plataforma de Business Discovery que permite analisar rapidamente os dados de todas as fontes de sua organização, de forma que os gráficos apresentem com precisão as suas necessidades e processos. <br>Oferece uma ampla gama de funções para analisar seus dados da forma que desejar vê-los, fornecendo uma visão sem precedentes sobre os acontecimentos reais e informando o desempenho de sua organização.<br>
+                            </p>
+                              <h3>Características</h3>
+                              <p>Um mecanismo que mantém automaticamente a associação entre os dados<br>
+                              Pioneiro no uso de BI em memória<br>
+                              Cálculo de agregações durante o uso - Velocidade sem comparação<br>
+                              Compressão de dados à 10% de seu tamanho original<br>
+                              <br>
+                              <p> Exemplo usando dados da minha Monografia sobre Desastres Naturais ocorridos no Estado de São Paulo de 1996 a 2015</p>
+                              <br>
+                              <p>Modelagem Multidimensional</p>
+
+                              <img src="img/portfolio/QlikView/DW_DESASTRES.PNG?image=251" border="1">
+                              <br>
+                              <div align="center">
+                              <p>Paínel</p>
+
+                              <img src="img/portfolio/QlikView/Painel-Silvio_85.PNG?image=251" border="1">
+                              </div>
+                              <br>
+                              <p>Tabela Fato gerada através do QlikView utilizada numa dinâmica de apresentação</p>
+                              <img src="img/portfolio/QlikView/Qlik-FATO-CV.PNG?image=251" border="1">
+                              <br>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    <!-- </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <!-- <div class="col-lg-8 col-lg-offset-2"> -->
+                        <div class="modal-body">
+                           <hr class="star-primary">
+                            <h2>QlikSense</h2>
+                            <hr class="star-primary">
+                            <!-- <img src="img/portfolio/cake.png" class="img-responsive img-centered" alt=""> -->
+                            <p>QlikSense é uma plataforma para análise de dados e compartilhamento de insights. Permite criar dashboards de forma rápida.<br>
+                            </p>
+                            <br>
+                            <h3>Exemplo</h3>
+                            <br>
+                              <p> Usando dados sobre Desastres Naturais ocorridos na região do Vale do Paraíba entre 1996 e 2015.</p>
+                              <br>
+                              <p>Associação entre as tabelas utilizadas na análise. Efetuada a partir dos nomes iguais dos campos ou atributos.</p>
+                              <br>
+                              <img src="img/portfolio/QlikSense/Associação2.PNG?image=251" border="1">
+                              <br>
+                              <div align="center">
+                              <p>Paíneis</p>
+                              <br>
+                              <img src="img/portfolio/QlikSense/Tela1-90.PNG?image=251" border="1">
+                              </div>
+                              <br>
+                              <img src="img/portfolio/QlikSense/Tela2-80.PNG?image=251" border="1">
+                              <br>
+                              <p>KPI - Key Performance Indicator</p>
+                              <img src="img/portfolio/QlikSense/Tela3.PNG?image=251" border="1">
+                              <br>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    <!-- </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal"><div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal">
+                        <div class="lr">
+                            <div class="rl">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 col-lg-offset-2">
+                                <div class="modal-body">
+                                  <hr class="star-primary">
+                                    <!-- <img src="img/portfolio/cabin.png" class="img-responsive img-centered" alt=""> -->
+                                    <!-- <h2>QlikView</h2>
+                                    <hr class="star-primary">
+                                    <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                                    <ul class="list-inline item-details">
+                                        <li>Client:
+                                            <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                            </strong>
+                                        </li>
+                                        <li>Date:
+                                            <strong><a href="http://startbootstrap.com">April 2014</a>
+                                            </strong>
+                                        </li>
+                                        <li>Service:
+                                            <strong><a href="http://startbootstrap.com">Web Development</a>
+                                            </strong>
+                                        </li>
+                                    </ul>
+                                    <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+<!-- <div class="lr">
+  <div class="rl">
+    </div>
+  </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <img src="img/portfolio/cabin.png" class="img-responsive img-centered" alt="">
+                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                           <hr class="star-primary">
+                            <h2>Data Warehouse</h2>
+                            <hr class="star-primary">
+                            <!-- <img src="img/portfolio/cake.png" class="img-responsive img-centered" alt=""> -->
+                            <p>O Data Warehouse quem centraliza os dados da empresa e elimina os ruídos de comunicação entre os departamentos, deixando tudo unificado.<br>
+                              É todo planejado com foco na tomada de decisão e no que o negócio precisa.<br>
+                              É a parte mais crítica nos projetos de BI. - Rafael Piton</p>
+
+                              <h3>Definição</h3>
+                              <img src="img/portfolio/DW/DW-Inmon.PNG?image=251" border="1">
+                              <br>
+                              <img src="img/portfolio/DW/Diagrama.PNG?image=251" border="1">
+                              <br>
+                              <h3>Características</h3>
+                                <p align="left">
+                                Orientado por assunto:<br> A orientação por assunto é uma característica marcante de um DW, pois toda modelagem será voltada em torno dos principais assuntos da empresa<br><br>
+                                Integrado:<br> A integração mostra-se em muitas diferentes maneiras: na convenção consistente de nomes, na forma consistente das variáveis, na estrutura consistente de códigos, nos atributos físicos consistente dos dados, e assim por diante.<br><br>
+                                Histórico:<br> Num DW é normal mantermos um horizonte de tempo bem superior ao dos sistemas transacionais, enquanto no OLTP mantemos um histórico curto dos dados, no DW guardamos esses dados num período maior.<br><br>
+                                Localização:<br> Os dados podem estar fisicamente armazenados num único local centralizando o banco de dados em um DW integrado, procurando maximizar o poder de processamento e agilizando a busca dos dados ou distribuídos, os Data Marts, armazenados por áreas de interesse. Por exemplo, os dados da gerência financeira num servidor, dados de marketing noutro e dados da contabilidade num terceiro lugar.<br><br>
+                                Não volátil:<br>No DW existem somente duas operações, a carga inicial e as consultas dos front-ends aos dados. Isso pode ser afirmado porque a maneira como os dados são carregados e tratados é completamente diferente dos sistemas transacionais. Enquanto nesses sistemas temos vários controles e updates de registros, no DW temos somente inserts e selects de dados. Por exemplo, num sistema de contabilidade podemos fazer alterações nos registros. Já no DW, o que acontece é somente ler os dados na origem e gravá-los no destino, ou seja, no banco modelado multidimensional.<br><br>
+                                Credibilidade dos dados:<br> Dados não dignos de confiança podem resultar em relatório inúteis, que não têm importância alguma, assim como uma lista de pacientes do sexo masculino e grávidos, por exemplo.<br><br>
+                                Granularidade:<br> Nada mais é do que o nível de detalhe ou de resumo dos dados existentes num DW. Quanto maior for o nível de detalhes, menor será o nível de granularidade. O nível de granularidade afeta diretamente o volume de dados armazenados no DW, e ao mesmo tempo o tipo de consulta que pode ser respondida.</p>
+
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                            <hr class="star-primary">
+                            <h2>Tableau</h2>
+                            <hr class="star-primary">
+                            <p align="center">O Tableau destaca-se entre os lideres segundo a Gartner, que avalia diversas ferramentas.<br>
+                                 Esta ferramenta permite visualizar os dashboards feitos e salvos numa área pública pertencente a cada usuário, não sendo necessário ter conta ou software instalado em seu ambiente.
+                            </p>
+
+                          </div>
+                                <p>Exemplo de um dashboard apresentando um conjunto de cidades e uma lista de desastres naturais ocorridos.</p>
+                                <img src="img/portfolio/Tableau/Cidades-Ocorrencias.PNG?image=251" class="img-fluid" border="1">
+                                <br>
+                                <div color="red" align="center">
+                                <p>Clique no icone abaixo para ver dashboards na página pública do Tableau.</p>
+                                <a href="https://public.tableau.com/views/Monografia-DesastresNaturais-Ocorrnciasaolongodosanos/Story1?:embed=y&:display_count=yes">
+                                  <img src="img/portfolio/Tableau/tableau-public-logo.png?image=251" border="1">
+                                </a>
+                              </div>
+                                <br>
+                                <img src="img/portfolio/Tableau/Precipitações-em-Taubaté.PNG?image=251" class="img-fluid" border="2">
+                                <br>
+
+                          <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                </div>
+            </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <!--<div class="col-lg-8 col-lg-offset-2">-->
+                            <!--<h2>Project Title</h2>-->
+                            <hr class="star-primary">
+							              <h2>Power BI</h2>
+                            <hr class="star-primary">
+<!--<h2 align="center"><font color="red">Power BI</font></h2> -->
+                             <p align="center">Ferramenta da Microsoft, apontada pela Gartner como lider entre as ferramentas de BI, seguida de perto pela Tableau.<br>
+</p>
+                             <iframe width="800" height="600" frameborder="0" border="1" cellspacing="0" style="border-style: none;width: 100%;" src="https://app.powerbi.com/view?r=eyJrIjoiNmM5NzBhNWUtOWQ1NC00YzRhLThiOGMtODVmMjdhY2JkODcyIiwidCI6ImQ4MTMwYWUxLWJlNjQtNDlkNi05Y2E3LTlhNjI5YjA0NGJlMCJ9" frameborder="0" allowFullScreen="true">
+ </iframe>
+ <br>
+ <br>
+                            <iframe width="800" height="600" src="https://app.powerbi.com/view?r=eyJrIjoiOGRlODdhMDAtOGEwMS00NDFlLWFiYzctYTY2ODNmOTIzMzcxIiwidCI6ImQ4MTMwYWUxLWJlNjQtNDlkNi05Y2E3LTlhNjI5YjA0NGJlMCJ9" frameborder="0" allowFullScreen="true"></iframe>
+ <br>
+ <br>
+                             <iframe width="800" height="600" frameborder="0" border="1" cellspacing="0" style="border-style: none;width: 100%;" src="https://app.powerbi.com/view?r=eyJrIjoiNzI2ZThlYzgtNmYyZC00OTAwLThkMGItNjA5OWM3NDA0ZDUyIiwidCI6ImQ4MTMwYWUxLWJlNjQtNDlkNi05Y2E3LTlhNjI5YjA0NGJlMCJ9" frameborder="0" allowFullScreen="true"></iframe>
+<br>
+</div>
+<br>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                <!--</div>-->
+        </div>
+    </div>
+
+    <!---WEKA -->
+    <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <hr class="star-primary">
+                            <h2>Weka</h2>
+                            <hr class="star-primary">
+                            <!-- <img src="img/portfolio/safe.png" class="img-responsive img-centered" alt=""> -->
+                            <p align="justify">
+                              Weka é um software livre para mineração de dados, do tipo open source, desenvolvido em Java dentro das especificações da GPL (General Public License) que se consolidou como a ferramenta de mineração de dados mais utilizada por estudantes e professores de universidades.<br>
+                              A ferramenta também é muito utilizada por profissionais que desejam aprender os conceitos básicos sobre mineração de dados.<br>
+                              Através de sua interface gráfica (conhecida como Weka Explorer) é possível conduzir processos de mineração de dados de forma simples, realizando a avaliação dos resultados obtidos e a comparação de algoritmos.<br>
+                              Além disso, a ferramenta oferece recursos para a execução de tarefas relacionadas ao pré-processamento de dados como, por exemplo, a seleção e a transformação de atributos.<br>
+                              </p>
+                              <img src="img/portfolio/Weka/weka.PNG" class="img-responsive img-centered" alt="">
+
+                              <h4><font color="red">Classificação - Algoritmo RandomForest</font></h4>
+                              <br>
+                              <p align="justify">
+                                O Weka foi usado para <b>classificar</b> um conjunto de dados sobre websites falsos (Phishing Websites).<br>
+                                Um website falso apresenta algumas caracteristicas que podem ser usadas para classificar como falso ou não um site.<br>
+                                Por exemplo:Tempo de registro do domínio, uso de prefixos e sufixos, abertura de janelas de Popup e etc...<br>
+                                Foram utilizados 30 atributos que geralmente identificam um website falso.<br>
+                                Foi utilizado o algoritmo RandomForest, este apresentou uma taxa de acerto de 98,97.
+                              </p>
+                              <div class="row">
+                                <div >
+                                  <div class="row" align="center">
+                                    <img src="img/portfolio/Weka/uci.PNG?image=251" class="img-fluid">
+                                    <br>
+                                    <br>
+                                    <img src="img/portfolio/Weka/dataset.PNG?image=251" class="img-fluid">
+                                    <br>
+                                    <br>
+                                    <img src="img/portfolio/Weka/Classif-RandomForest.png?image=251" class="img-fluid">
+                                  </div>
+                                </div>
+
+                                <h4><font color="red">Conclusão</font></h4>
+                                 <p align="justify">
+                                  O algoritmo RandomForest apresentou um acerto de 98,9688% de classificações corretas.<br>
+                                  Segundo a matriz de confusão:<br>
+                                  Corretamente<br>
+                                  - > classe -1 =  4830 - > classe  1 = 6111 <br>
+                                  Incorretamente<br>
+                                  - > classe -1 =    68 - > classe  1 = 46 <br>
+                                  <br>
+                                  Este algoritmo tem sido muito utilizado em análises envolvendo big data, pois tem proporcionado melhores resultados em relação a outros algoritmos. <br>
+                                  Em estudos e comparações (monografias) feitas com o J48 e o Naive Bayes, o RandomForest se mostrou mais apto para essas condições de datasets (número de instâncias e atributos).
+                                </p>
+                                <br>
+
+                                <h4><font color="red">Agrupamento - Algoritmo SimpleKMeans</font></h4>
+                                <p align="justify">
+                                  O dataset com 30 atributos que caracterizam um site falso, foram analisados visando criar grupos baseados nos atributos encontrados.<br>
+                                  Foi definido que seriam gerados 5 grupos.<br>
+                                  O SimpleKMeans apresentou 5 grupos bem distribuídos, a partir da indicação da quantidade (k) de clusters desejada, dividiu a base de dados de forma que a similaridade dos elementos de cada cluster seja alta e  entre os clusters seja baixa
+                                  .<br>
+                                </p>
+                                <div class="row">
+                                    <div class="row" align="center">
+                                      <img src="img/portfolio/Weka/Cluster-SimpleKMeans2.png?image=251" class="img-fluid">
+                                      <br>
+                                      <br>
+                                      <img src="img/portfolio/Weka/Cluster-SimpleKMeans.PNG?image=251" class="img-fluid">
+                                    </div>
+                                  <br>
+                                  <h4><font color="red">Conclusão</font></h4>
+                                  <p align="justify">
+                                    Os grupos foram definidos a partir dos valores assumidos por cada atributo que identifica um site falso, um site suspeito ou um site legitimo.<br>
+                                    Os valores possíveis eram 0, 1 e -1, sendo 0 considerado suspeito, -1 como falso e 1 como sendo legitimo.<br>
+                                    Nos grupos gerados, o valor -1 no grupo 2, concentrou maior número de instâncias.<br>
+                                    Os atributos identificados como característica de um site falso são:<br>
+                                      - URL_Length<br>
+                                      - Prefix_Suffix<br>
+                                      - Domain_registration_length<br>
+                                      - SFH<br>
+                                      - Page_Rank<br>
+                                      <br>
+                                      A maior concentração de instâncias no grupo 2, pode indicar ou apontar que sejam atributos chaves na determinação se um site é falso ou não.<br>
+                                    </p>
+                                    <br>
+                                    <br>
+
+                                <h4><font color="red">Associação - Algoritmo Apriori</font></h4>
+                                <br>
+                                <p align="justify">
+                                  O dataset utilizado possue 4627 instâncias e 217 atributos relacionados as compras efetuadas num supermercado.<br>
+                                  O algoritmo Apriori, busca a probabilidade de um item Antecedente, LHS (Left Hand Side) influênciar na existência de um item Consequente, RHS(Right Hand Side).<br>
+                                  O conceito por trás desta representação é indicar que, numa base de dados, a probabilidade de ocorrência de B é maior entre os registros que contém A. Ou seja, a ocorrência do evento A aumenta a chance do evento B ocorrer.<br>
+                                  </p>
+                                <div class="row">
+                                    <div class="row" align="center">
+                                      <img src="img/portfolio/Weka/SuperMarket04.PNG?image=251" class="img-fluid">
+                                      <br>
+                                      <br>
+                                      <p>Arquivo: supermarket.arff</p>
+                                      <img src="img/portfolio/Weka/SuperMarket01.PNG?image=251" class="img-fluid">
+                                      <br>
+                                      <br>
+                                      <p>Declaração das instâncias de compras efetuadas</p>
+                                      <img src="img/portfolio/Weka/SuperMarket02.PNG?image=251" class="img-fluid">
+                                      <br>
+                                      <br>
+                                      <p>Execução do algoritmo Apriori</p>
+                                      <img src="img/portfolio/Weka/SuperMarket03.PNG?image=251" class="img-fluid">
+                                      <br>
+                                      <br>
+
+                                    </div>
+                                  <br>
+                                  <h4><font color="red">Conclusão</font></h4>
+                                  <p align="justify">
+                                    Analisando a saída do algoritmo pode-se observar as associações encontradas no conjunto de dados utilizado. Quem comprou determinado produto (LHS), também comprou um produto especifico (RHS).<br>De posse dessa informação, a administração do supermercado pode criar promoções para motivar mais compras e posicionar os produtos associados mais próximos entre si.
+                                    </p>
+                                    <br>
+                                  </div>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                        <hr class="star-primary">
+                        <h2>Python</h2>
+                        <hr class="star-primary">
+                        <br>
+                         <p align="center">Linguagem que ganha cada vez mais adeptos entre desenvolvedores e universidades, visando o inicio do aprendizado de programação.<br>
+                           Possui diversas bibliotecas e frameworks que facilitam o desenvolvimento de aplicações: Bibliotecas matemáticas e gráficas.
+                         </p>
+                         <br>
+                         <br>
+                           <h4><font color="red">Jupyter Notebook</font></h4>
+                           <br>
+                           <p align="center">Conhecido anteriormente como IPython Notebook é agora identificado como Jupyter Notebook. <br>É um ambiente computacional interativo, no qual pode-se executar códigos, gerar gráficos, etc...
+                          </p>
+                         <img src="img/portfolio/Python/jupyter.png?image=251" class="img-fluid">
+
+                         <br>
+                         <div  align="center">
+                           <img src="img/portfolio/Python/Tela1-1.PNG?image=251" border="1">
+                           <img src="img/portfolio/Python/Tela2.PNG?image=251" border="1">
+                           <img src="img/portfolio/Python/Tela3.PNG?image=251" border="1">
+                           <img src="img/portfolio/Python/Tela4.PNG?image=251" border="1">
+                           <img src="img/portfolio/Python/Tela5.PNG?image=251" border="1">
+                        <!-- </div>
+                         <div align="left">-->
+                           <img src="img/portfolio/Python/Tela6.PNG?image=251" border="1">
+                           <img src="img/portfolio/Python/Tela7.PNG?image=251" border="1">
+                           <img src="img/portfolio/Python/Tela8.PNG?image=251" border="1">
+                           <img src="img/portfolio/Python/Tela9.PNG?image=251" border="1">
+                           <img src="img/portfolio/Python/Tela10.PNG?image=251" border="1">
+                           <img src="img/portfolio/Python/Tela11-1.PNG?image=251" border="1">
+                           <img src="img/portfolio/Python/Tela12.PNG?image=251" border="1">
+                           <img src="img/portfolio/Python/Tela13.PNG?image=251" border="1">
+                          <!-- <img src="img/portfolio/Python/Tela14.PNG?image=251" border="1">-->
+                           <img src="img/portfolio/Python/Tela15.PNG?image=251" border="1">
+                           <img src="img/portfolio/Python/Tela16.PNG?image=251" border="1">
+                           <img src="img/portfolio/Python/Tela17.PNG?image=251" border="1">
+                           <img src="img/portfolio/Python/Tela18.PNG?image=251" border="1">
+                        </div>
+                          <div align="center">
+                           <br>
+                         <p>Clique na imagem abaixo para fazer o download do código e abrir no Jupyter Notebook.</p>
+                         <a href="https://drive.google.com/file/d/0B0DzQyW0s5scQ1N0Sy1saTEwZDQ/view?usp=sharing">
+                           <img src="img/portfolio/Python/bitcoin.jpg?image=251" border="1">
+                         </a>
+                       </div>
+<br>
+<br>
+</div>
+<br>
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                    </div>
+                </div>
+</div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <hr class="star-primary">
+                            <h2>R</h2>
+                            <hr class="star-primary">
+                            <p align="center">
+                              R é uma linguagem e também um ambiente de desenvolvimento integrado para cálculos estatísticos e gráficos.<br>
+                              Foi criada originalmente por Ross Ihaka e por Robert Gentleman no departamento de Estatística da universidade de Auckland, Nova Zelândia, e foi desenvolvido em um esforço colaborativo de pessoas em vários locais do mundo.<br>
+                              O nome R provêm em parte das iniciais dos criadores e também de um jogo figurado com a linguagem S (da Bell Laboratories, antiga AT&T).
+                            </p>
+
+                            <br>
+                            <h3><font color="red">Análise de dados dos censos de 1991, 2000 e 2010 do Brasil</font></h3>
+                            <p align="center">
+                              Para efetuar as análises fez-se o download do dataset Altas2013_dadosbrutos do site do Ibge. Utilizou-se o RStudio como ambiente para execução.
+                              <br>Foram análisadas as correlações entre alguns atributos na aba com dados do Brasil contendo os valores segundo os censos de 1991, 2000 e 2010.
+                              <br>Correlações indicam uma relação entre atributos, esta correlação pode ter valores positivos e negativos.
+                              <br>Valores negativos indicam que os atributos são inversamente proporcionais ou seja à medida que os valores de um atributos aumentam, os valores do outro atributos tendem a cair.
+                              <br>Valores positivos, indicam que os atributos são diretamente proporcionais.<br>
+                              Foram feitas correlações entre:<br>
+                            </p>
+                              <p align="center">
+                                    Espectativa de Vida ao nascer, valores em anos<br>
+                                    Espectativa de anos de estudo até os 18 anos<br>
+                                    Proporção de pobreza (renda familiar per capita abaixo de R$140 mensais)<br>
+                                    Probabilidade de sobrevivência até os 60 anos<br>
+                             </p>
+                              <br>
+                                <h4><font color="red">RStudio</font></h4>
+                             <div  align="center">
+                                      <img src="img/portfolio/R/RStudio.PNG?image=251" style="width:900px;height:800px;>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                                <!-- <br>
+                                <img src="img/portfolio/Tableau/Precipitações-em-Taubaté.PNG?image=251" class="img-fluid" border="2">
+                                <br> -->
+                                <div align="center">
+                                <br>
+                                <h4><font color="red">Resultado da Execução</font></h4>
+                                </div>
+
+<div align="left">
+ <p>
+   > ## ESPVIDA - Espectativa de Vida ao nascer, valores em anos<br>
+   > ESPVIDA<-dadosBR[3]<br>
+   > ## E_ANOSESTUDO - Espectativa de anos de estudo até os 18 anos<br>
+   > E_ANOSESTUDO<-dadosBR[11]<br>
+   > head(ESPVIDA)<br>
+   ESPVIDA<br>
+   1   64.73<br>
+   2   68.61<br>
+   3   73.94<br>
+   > head(E_ANOSEstudo)<br>
+   E_ANOSESTUDO<br>
+   1         8.16<br>
+   2         8.76<br>
+   3         9.54<br>
+   > cor(ESPVIDA,E_AN0SEstudo)<br>
+          E_ANOSESTUDO<br>
+          ESPVIDA<br>
+  <font color="red">0.9998801</font><br>
+</p>
+  <p align="center">
+    A correlação entre Espectativa de vida e Anos de estudo, aponta valor positivo e quase igual a 1, significando que há uma influência positiva no tempo de vida de acordo com o tempo de estudo.
+  </p>
+  <br>
+</div>
+<
+<div align="left">
+<p>
+  > ## PMPOB - Proporção de pobreza (renda familiar per capita abaixo de R$140 mensais)<br>
+  > PMPOB<-dadosBR[76]<br>
+  > head(PMPOB)<br>
+    PMPOB<br>
+    1 38.16<br>
+    2 27.90<br>
+    3 15.20<br>
+    > cor(ESPVIDA,PMPOB)<br>
+        PMPOB<br>
+        ESPVIDA<br>
+  <font color="red">-0.9995688</font><br>
+</p>
+  <p align="center">
+    A correlação entre Espectativa de vida e Proporção de pobreza, aponta valor negativo e quase igual a -1, significando que há uma influência inversamente proporcional no tempo de vida de acordo com proporção de pobreza.
+  </p>
+  <br>
+<p>
+    > ## SOBRE60 - Probabilidade de sobrevivência até os 60 anos<br>
+    > SOBRE60<-dadosBR[9]<br>
+    > head(SOBRE60)<br>
+      SOBRE60<br>
+      1   70.93<br>
+      2   77.63<br>
+      3   84.05<br>
+      > cor(E_ANOSESTUDO,SOBRE60)<br>
+          SOBRE60<br>
+          E_ANOSESTUDO<br>
+  <font color="red">0.9961756</font><br>
+</p>
+  <p align="center">
+      A correlação entre a Probabilidade de chegar até os 60 anos e Anos de estudo, aponta valor positivo e quase igual a 1, significando que há uma influência diretamente proporcional a probabilidade de chegar aos 60 anos e de acordo com o tempo de estudo.
+  </p>
+ <br>
+</div>
+
+                            <button id="btnSubmit" type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/freelancer.min.js"></script>
+
+</body>
+
+</html>

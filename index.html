@@ -181,6 +181,16 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
+                        <img src="img/portfolio/Talend/logo.PNG" class="img-responsive" alt="logo Talend">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal10" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
                         <img src="img/portfolio/R/R-logo.png" class="img-responsive" alt="logo R">
                     </a>
                 </div>
@@ -663,9 +673,6 @@
  </iframe>
  <br>
  <br>
-                            <iframe width="800" height="600" src="https://app.powerbi.com/view?r=eyJrIjoiOGRlODdhMDAtOGEwMS00NDFlLWFiYzctYTY2ODNmOTIzMzcxIiwidCI6ImQ4MTMwYWUxLWJlNjQtNDlkNi05Y2E3LTlhNjI5YjA0NGJlMCJ9" frameborder="0" allowFullScreen="true"></iframe>
- <br>
- <br>
                              <iframe width="800" height="600" frameborder="0" border="1" cellspacing="0" style="border-style: none;width: 100%;" src="https://app.powerbi.com/view?r=eyJrIjoiNzI2ZThlYzgtNmYyZC00OTAwLThkMGItNjA5OWM3NDA0ZDUyIiwidCI6ImQ4MTMwYWUxLWJlNjQtNDlkNi05Y2E3LTlhNjI5YjA0NGJlMCJ9" frameborder="0" allowFullScreen="true"></iframe>
 <br>
 </div>
@@ -840,7 +847,7 @@
 
                          <br>
                          <div  align="center">
-                           <img src="img/portfolio/Python/Tela1-1.PNG?image=251" border="1">
+                           <img src="img/portfolio/Python/Tela1.PNG?image=251" border="1">
                            <img src="img/portfolio/Python/Tela2.PNG?image=251" border="1">
                            <img src="img/portfolio/Python/Tela3.PNG?image=251" border="1">
                            <img src="img/portfolio/Python/Tela4.PNG?image=251" border="1">
@@ -864,7 +871,7 @@
                           <div align="center">
                            <br>
                          <p>Clique na imagem abaixo para fazer o download do código e abrir no Jupyter Notebook.</p>
-                         <a href="https://drive.google.com/file/d/0B0DzQyW0s5scQ1N0Sy1saTEwZDQ/view?usp=sharing">
+                         <a href="https://drive.google.com/file/d/0B0DzQyW0s5sceEpGckxRblFsd0E/view?usp=sharing">
                            <img src="img/portfolio/Python/bitcoin.jpg?image=251" border="1">
                          </a>
                        </div>
@@ -877,7 +884,113 @@
                 </div>
 </div>
 
-    <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                        <hr class="star-primary">
+                        <h2>Talend Data Integration</h2>
+                        <hr class="star-primary">
+                        <br>
+                        <p>O Talend permite a leitura de diversas fontes de dados, a criação de stage area, a geração de dimensões, a manipulação/transformação de dados e por fim a construção da tabela Fato.<br>
+                           </p>
+                           <br>
+                           <h3>Data Warehouse</h3>
+                           <br>
+                           <p> O Talend foi usado na construção de um Data Warehouse com diversos dados de um empresa. </p>
+                           <p>Tabelas: Divisão, Cargo, Departamento, Funcionarios e Folha de Pagamento.</p>
+                           <h3>Stage Area</h3>
+                           <p> Inicialmente os dados são lidos e transferidos para a Stage Area. Isto é necessário para não gerar impacto no dia-dia da empresa e não concorrer com os acessos normais dos usuários.</p>
+                           <h3>Dimensões</h3>
+                           <p> Uma vez carregada a stage area, começa a fase de criação das dimensões a partir dos dados transferidos. Uma análise de quais informações devem ter histórico de mudanças ao longo do tempo é necessária afim de definir a configuração do componente SCD ( Slow Change Dimension).</p>
+                           <div align="left" >
+                             <p><font color="red"> SCD tipo 1 </font> - não gera histórico da informação.</p>
+                             <br>
+                           <p><font color="red"> SCD tipo 2 </font> - são incluidas as colunas DTC_INICIO e DTC_FIM, que registra a data de criação e atualização da informação no banco.
+                           </p>
+                         </div>
+                           <h3>Tabela Fato</h3>
+                           <p> Após a criação das dimensões inicia a construção da tabela Fato. Uma das dimensões mais importantes é a Dim_Tempo, que registra o periodo de tempo a ser analisado. <p>
+                             <p> Esta dimensão apresenta o tempo em diversos formatos: dias, mês, ano, quinzena, trimestre, bimestre, etc...</p>
+                           <p> A partir da integração das informações da stage area que representa o fato a ser analisado e as dimensôes que descrevem este fato, é gerado a tabela fato.
+                           </p>
+                         <br>
+                         <img src="img/portfolio/Talend/Fato.PNG?image=251" class="img-fluid">
+                        <br>
+                        <br>
+                        <h3>Carga</h3>
+                        <p> No Talend são construidos jobs que são responsáveis pela manipulação dos dados em operações tais como: leitura dos dados, gravação, transformação, etc.</p>
+                        <h3>Carga Stage</h3>
+                        <p> A transferência dos dados a partir das fontes de dados para a area de stage esta definido nos seguintes jobs:</p>
+                        <div align="left"><font color="red">
+                          <p> Carga_Stg_Departamento</p>
+                          <p> Carga_Stg_Cargo</p>
+                          <p> Carga_Stg_Divisao</p>
+                          <p> Carga_Stg_Funcionario</p>
+                          <p> Carga_Stg_Folha_Pagamento</p>
+                        </font>
+                        </div>
+                        <p> Exemplo de job construido para fazer a leitura dos dados da tabela Cargo.
+                        </p>
+                        <img src="img/portfolio/Talend/carga_stg.PNG?image=251" class="img-fluid">
+                       <br>
+                       <h3>Carga Dimensões</h3>
+                        <p> A criação das dimensões é responsabilidade dos seguintes jobs:</p>
+                        <div align="left"><font color="red">
+                          <p> Carga_Dim_Departamento</p>
+                          <p> Carga_Dim_Cargo</p>
+                          <p> Carga_Dim_Divisao</p>
+                          <p> Carga_Dim_Funcionario</p>
+                        </font>
+                        </div>
+                        <p> Um job foi construido para fazer a criação da dimensão Dim_Departamento, a partir da leitura da area de stage. </p>
+                        <p> O componente tOracleScd foi definido como sendo tipo 2, pois algumas informações devem ter histórico de mudanças.</p>
+                        <p> O componente tOracleRow executa um script, fazendo a inicialização da coluna DTC_INICIO, que registra quando foi inserida cada linha da dimensão.</p>
+                        <p> Quando ocorrer uma modificação na coluna que descreve o departamento, a coluna DTC_FIM sera atualizada, uma nova chave artificial criada e uma nova linha criada. Mantendo-se assim um histórico das mudanças na informação.</p>
+                        <p> As dimensões Dim_Cargo e Dim_Divisão também são tipo 2, pois tem informações importantes.</p>
+                        <br>
+                        <img src="img/portfolio/Talend/carga_dim_scd2.PNG?image=251" class="img-fluid">
+                       <br>
+                       <br>
+                        <p> A dimensão Dim_Funcionario é tipo 1, não guarda histórico de mudanças.</p>
+                        </p>
+                        <br>
+                        <img src="img/portfolio/Talend/carga_dim_scd1.PNG?image=251" class="img-fluid">
+                       <br>
+                        <h3>Dimensão Tempo</h3>
+                        <p> A dimensão Dim_Tempo foi criada diretamente no banco de dados através de um script PL/SQL.</p>
+                      <br>
+                      <br>
+                      <h3>Carga Geral do Data Warehouse</h3>
+                        <p> Um job foi gerado para inicializar todas areas de stage e outro para reunir todos jobs numa única sequencia e assim carregar as areas de stage, gerar as dimensões e por fim a tabela Fato.</p>
+                        <br>
+                        <img src="img/portfolio/Talend/carga_geral.PNG?image=251" class="img-fluid">
+                       <br>
+                       <div align="center">
+                       <p>Clique no icone abaixo para assistir uma apresentação sobre o Talend.</p>
+                       <p> Coloque em Full Screen</p>.
+                       <a href="https://drive.google.com/file/d/1LXmYUSFZ-2KylkgkN6nsdX2LWgwmwShT/view?usp=sharing?:embed=y&:display_count=yes">
+                       <img src="img/portfolio/Talend/logo.PNG?image=251" border="1">
+                       </a>
+              </div>
+
+           </div>
+<br>
+<br>
+</div>
+<br>
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                    </div>
+                </div>
+</div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModal10" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -997,7 +1110,7 @@
                             <button id="btnSubmit" type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
-                </div>
+  </div>
 
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
